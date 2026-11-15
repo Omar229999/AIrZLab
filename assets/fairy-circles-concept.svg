@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title description">
+  <title id="title">Namib fairy circles concept illustration</title>
+  <desc id="description">An original stylized illustration of circular bare patches in a dry grassland, not a satellite or field photograph.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d855b"/>
+      <stop offset="1" stop-color="#413e32"/>
+    </linearGradient>
+    <radialGradient id="patch">
+      <stop offset="0" stop-color="#c1a875"/>
+      <stop offset=".75" stop-color="#aa9465"/>
+      <stop offset="1" stop-color="#6f704b"/>
+    </radialGradient>
+    <pattern id="grass" width="72" height="66" patternUnits="userSpaceOnUse">
+      <path d="M8 62l7-21m4 21l-1-25m24 25l8-17m5 17l-2-29m14 29l8-20" stroke="#c1c58a" stroke-width="2" opacity=".52"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="560" fill="url(#ground)"/>
+  <path d="M0 192q130-46 255 0t250-4 240-5 155 2v375H0z" fill="#77744b" opacity=".65"/>
+  <rect y="166" width="900" height="394" fill="url(#grass)" opacity=".8"/>
+  <g fill="url(#patch)" stroke="#d0bc83" stroke-opacity=".65" stroke-width="3">
+    <ellipse cx="160" cy="277" rx="57" ry="39"/>
+    <ellipse cx="330" cy="244" rx="42" ry="30"/>
+    <ellipse cx="505" cy="286" rx="64" ry="42"/>
+    <ellipse cx="714" cy="240" rx="48" ry="34"/>
+    <ellipse cx="252" cy="425" rx="69" ry="43"/>
+    <ellipse cx="438" cy="438" rx="43" ry="30"/>
+    <ellipse cx="653" cy="419" rx="66" ry="41"/>
+    <ellipse cx="830" cy="380" rx="45" ry="31"/>
+  </g>
+  <text x="54" y="514" fill="#f1e7c7" font-family="system-ui, sans-serif" font-size="18" letter-spacing="2">CONCEPT ILLUSTRATION · NOT A FIELD IMAGE</text>
+</svg>
